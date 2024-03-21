@@ -4,8 +4,7 @@ import random
 words = ["python", "programación", "computadora", "código", "desarrollo",
 "inteligencia"]
 # Elegir una palabra al azar
-#secret_word = random.choice(words)
-secret_word = "inteligencia"
+secret_word = random.choice(words)
 # Número máximo de intentos permitidos
 max_mistakes = 5
 mistakes = 0
